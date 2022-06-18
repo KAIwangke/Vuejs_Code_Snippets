@@ -46,9 +46,11 @@ Which (if any) progressive web app feature(s) does your app support?
 * If you want to run build the code using the command
 
 ```
-git clone --branch Release git@github.com:csci-5117-S22/project-2-snowyowl.git
+git clone --branch Release git@github.com:KAIwangke/Vuejs_todolist_APP.git
 
-cd project-2-snowyowl-Release
+cd Vuejs_todolist_APP-main
+
+npm install&&npm run serve
 
 ./node_modules/.bin/eslint --init&&npm install&&npm run serve
 
